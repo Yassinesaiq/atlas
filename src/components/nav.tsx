@@ -12,8 +12,13 @@ const Nav = () => {
   return (
     <nav className="flex justify-between items-center pl-4 pr-4 m-1  	">
       <Link href="/" className="flex items-center gap-2">
-        <img src={logo.src} alt="logo" width={50} height={50} />
-        <span className="text-white text-2xl ">ATLAS</span>
+        <span className="flex gap-1 p-3 text-2xl font-bold font-serif">
+          <span className="text-blue-800">A</span>
+          <span className="text-blue-500">T</span>
+          <span className="text-white">L</span>
+          <span className="text-white">A</span>
+          <span className="text-white">S</span>
+        </span>
       </Link>
       <div className="flex gap-10 items-center  p-4 text-white hover:text-gray-300 ">
         <Link
