@@ -17,14 +17,19 @@ const landing = () => {
           <h1 className="text-blue-100">
             Sell on desktops and mobile devices.
           </h1>
-          <div className="flex flex-row items-center gap-4 text-xl mt-8 ">
+          <div className="flex flex-row items-center gap-4 text-xl mt-8 font-sans">
             <a
-              className="bg-blue-300 p-3 border-1 rounded-xl text-blue-950 font-extralight "
+              className="bg-blue-300 p-3 border-2 border-blue-300 rounded-xl text-blue-950 font-extralight hover:bg-blue-500 hover:text-white hover:border-blue-500"
               href=""
             >
               Start Today
             </a>
-            <a href="">See other Stores</a>
+            <a
+              className=" p-3 border-2 border-blue-950 rounded-xl text-white font-medium hover:border-blue-500 hover:text-white"
+              href=""
+            >
+              See other Stores
+            </a>
           </div>
         </div>
       </div>
